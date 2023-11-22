@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Name - CV</title>
+    <style>
+        @media print {
+            body { width: 210mm; margin: 20mm 15mm; } /* A4 size adjustments */
+        }
+        body { font-family: Verdana; margin: 0; padding: 0; }
+        .container { width: 100%; overflow: hidden; } /* Adjusted for A4 size */
+        header { background: #FFFF; color: black; padding: 2px; text-align: left; }
+        .cv-name { justify-content: center; text-align: center;}
+        .header-info { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px; }
+        .main { display: flex; }
+        .main-content { width: 75%; padding-right: 20px; }
+        .sidebar { width: 25%; padding: 20px; border-left: 2px solid #333; }
+        section { margin: 10px 0; border-bottom: 1px solid #ddd; padding-bottom: 10px; }
+        .section-title { color: #333; font-size: 24px; margin-bottom: 10px; }
+        .item { margin-bottom: 15px; }
+        .item-title { font-weight: bold; }
+        .item-subtitle { font-style: italic; color: #555; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-info">
+            <h1 class="cv-name">Your Name</h1>
+            <div>
+                <p>Email: youremail@example.com</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>Github: github.com/yourusername</p>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="main">
+            <div class="main-content">
+                <section>
+                    <h2 class="section-title">Personal Projects</h2>
+                    <!-- Project items here -->
+                </section>
+                <section>
+                    <h2 class="section-title">Experience</h2>
+                    <!-- Experience items here -->
+                </section>
+                <section>
+                    <h2 class="section-title">Education</h2>
+                    <!-- Education items here -->
+                </section>
+            </div>
+            <div class="sidebar">
+                <section>
+                    <h2 class="section-title">Skills</h2>
+                    <!-- Skills items here -->
+                </section>
+                <section>
+                    <h2 class="section-title">Interests</h2>
+                    <!-- Interest items here -->
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
